@@ -5,9 +5,9 @@
   grid-template-rows: 200px 200px 200px;
   background-color: #e4e4e4;
   grid-template-areas:
-    'one two three'
-    'four five six'
-    'seven eight nine';
+    'one one one'
+    'four five five'
+    'seven five five';
 }
 
 [class^='grid-item'] {

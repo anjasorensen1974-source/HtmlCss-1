@@ -4,7 +4,7 @@
   display: grid;
   grid-gap: 10px;
   background-color: #ddd;
-  grid-template-columns: repeat(3, 1fr);  /*try  repeat(2, 1fr) 2fr; */
+  grid-template-columns: 2fr repeat(3, 1fr);  /*try  repeat(2, 1fr) 2fr; */
   grid-auto-rows: 100px;  /* note no grid-template-rows */
   grid-auto-flow: row;
 }

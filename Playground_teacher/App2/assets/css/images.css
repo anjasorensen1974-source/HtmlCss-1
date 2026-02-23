@@ -10,17 +10,19 @@ h2 {
   text-align: end;
   margin: 10px;
 }
+
 .ImgAlbum {
     height: 100%;
     width: 100%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 
 .ImgItem {
   background-color: #588157;
-  width: 80%;
+  width: 200px;
 
   display: inline-block;
   text-align: center;
@@ -38,3 +40,10 @@ h2 {
   padding: 5px;
   font-size:small;
 }
+
+/* Debugging */
+/*
+.ImgAlbum {
+outline: 2px solid red;
+}
+*/
