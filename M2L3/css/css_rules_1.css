@@ -68,6 +68,11 @@ p:hover {
 	max-height: 7.25rem;
 }
 
+figure:nth-child(odd) img 
+{
+	max-height: 10rem;
+}
+
 /* this rule will apply for all tags with class="Caption" which are children of a 
    tag with class="Item" */
 .Item .Caption {
