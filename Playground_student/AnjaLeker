@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vår Grupp-App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Vår Webbauppgift</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hem / Om oss</a></li>
+                <li><a href="galleri.html">Bildgalleri</a></li>
+                <li><a href="tabell.html">Bildtabell</a></li>
+                <li><a href="detalj.html">Detaljsida</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="om-oss">
+            <h2>Vilka är vi?</h2>
+            <p>Vi är en grupp som studerar .Net-utveckling på Gävle högskola. Våra namn är:</p>
+            <ul>
+                <li>Max L</li>
+                <li>Max O</li>
+                <li>Ida</li>
+                <li>Anja L</li>
+                <li>Sara</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Kurs: HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
